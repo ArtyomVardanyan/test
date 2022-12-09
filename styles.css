@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191619;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img {
+    margin: 0 auto;
+}
+
+.img img{
+    max-width: 600px;
+    display: flex;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.title{
+    margin-top: 200px;
+    font-size: 57px;
+    font-weight: 700;
+}
+
+.subTitle{
+    max-width: 500px;
+    color: #626263;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #F26B29;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.links{
+    margin-top: 135px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    flex-wrap: wrap;
+}
+
+.link a{
+    color: #9c9c9e;
+    font-weight: 700;
+    transition: 0.2s ease;
+}
+
+.github:hover{
+    color: #F26B29;
+}
+
+.instagram:hover{
+    color: #f2298d;
+}
+
+.telegram:hover{
+    color: #295bf2;
+}
+
+@media screen and (max-width: 425px) {
+    .title {
+        margin-top: 220px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img img{
+        display: none;
+    }
+    .links{
+        font-size: 12px;
+        max-width: 200px;
+        motion-path: auto;
+    }
+  }
